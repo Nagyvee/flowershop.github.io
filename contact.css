@@ -1,0 +1,134 @@
+body {
+    background-color: beige;
+    margin-left: 10px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.form-image {
+    width: 300px;
+    float: left;
+    display: block;
+    flex-grow: 0.5;
+}
+.form {
+    text-align: center;
+    display: flex;
+    float: right;
+    margin-right: 10px;
+    background-color: rgb(221, 255, 255);
+}
+
+.contact-us {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+form input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    border: solid gray 2px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 15px;
+  }
+
+  button {
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    border: solid black 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 15px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+  }
+  .map {
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+  }
+
+ .header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    position: sticky;
+    margin-top: 0;
+    top: 0;
+ }
+
+
+ .navigation {
+    float: right;
+    margin-left: 550px;
+    margin-top: 20px;
+    text-align: center;
+
+ }
+
+ .logo h2 {
+    font-size: 30px;
+    font-weight: 20px;
+    margin-left: 50px;
+ }
+  
+.btn1 {
+    margin-left: 40px;
+}
+
+.footer {
+    border: solid red 2px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;  
+}
+
+.info {
+   padding: 2px;
+}
+
+.contact {
+    margin-left: 150px;
+    padding: 1px;
+
+}
+.info p {
+    color: rgb(194, 108, 108);
+}
+
+.footer h3{
+    color: black;
+    text-decoration: underline;
+}
+
+.social {
+    margin-left: 150px;
+    padding: 1px;
+}
+  .fa-facebook,  .fa-twitter,   .fa-phone,  .fa-whatsapp 
+  {
+    color: white;
+    width: 30px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    padding-left: 30px;
+    color: rgb(0, 0, 0);
+ }
+
+
+

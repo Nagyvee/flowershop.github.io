@@ -1,0 +1,143 @@
+body {
+    margin-left: 10px;
+}
+h2 {
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+}
+
+h2 i{
+    margin-right: 300px;
+    margin-left: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: none;
+    background-color: beige;
+}
+.link-1 ,.link-2 ,.link-3 ,.link-4 {
+    width: 85%;
+    display: inline-block;
+    border: solid green 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    height: 300px;
+    text-align: center;
+
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 15px;
+}
+
+.link-1 {
+background-color: rgb(255, 217, 213);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.link-2 {
+ background-color: rgb(216, 255, 241);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.link-4 {
+background-color: rgb(255, 255, 213);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.container button {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(64, 129, 101);
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    border: solid black 2px;
+    border-radius: 30px;
+}
+mark {
+    background-color: aquamarine;
+}
+.container p {
+    font-size: 18px;
+    font-weight: 12px;
+    font-family: sans-serif;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+
+.price {
+    font-weight: bold;  
+}
+
+/* Footer */
+.footer {
+    border: solid red 2px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 10px;  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+   padding: 2px;
+}
+
+.contact {
+    margin-left: 150px;
+    padding: 1px;
+
+}
+.info p {
+    color: rgb(194, 108, 108);
+}
+
+.footer h3{
+    color: black;
+    text-decoration: underline;
+}
+
+.social {
+    margin-left: 150px;
+    padding: 1px;
+}
+  .fa-facebook,  .fa-twitter,   .fa-phone,  .fa-whatsapp 
+  {
+    color: white;
+    width: 30px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    padding-left: 30px;
+    color: rgb(0, 0, 0);
+ }

@@ -1,0 +1,111 @@
+body {
+    margin-left: 10px;
+}
+h1 { 
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+
+ }
+
+
+
+.red-roses, .white-roses, .artificial {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    
+}
+.red-roses img, .white-roses img, .artificial img {
+    width: 300px;
+    height: 350px;
+    margin-right: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+    
+}
+.red-roses p, .white-roses p, .artificial p {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: 10px;
+}
+    h2 {
+        text-align: center;
+        text-decoration: underline;
+        background-color: rgb(220, 229, 163);
+        font-size: 30px;
+    }
+.red-roses {
+    background-color: rgb(224, 213, 200);
+}
+.white-roses {
+    background-color: rgb(216, 244, 235);
+}
+.artificial {
+ background-color: rgb(210, 187, 234);
+}
+
+button {
+    width: 80%;
+    background-color: rgb(70, 67, 67);
+    color: white;
+    font-size: 15px;
+    font-weight: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Footer */
+.footer {
+    border: solid red 2px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 10px;  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+   padding: 2px;
+}
+
+.contact {
+    margin-left: 150px;
+    padding: 1px;
+
+}
+.info p {
+    color: rgb(194, 108, 108);
+}
+
+.footer h3{
+    color: black;
+    text-decoration: underline;
+}
+
+.social {
+    margin-left: 150px;
+    padding: 1px;
+}
+  .fa-facebook,  .fa-twitter,   .fa-phone,  .fa-whatsapp 
+  {
+    color: white;
+    width: 30px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    padding-left: 30px;
+    color: rgb(0, 0, 0);
+ }
